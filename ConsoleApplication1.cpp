@@ -1,21 +1,55 @@
 ﻿#include <iostream>
-#include <iomanip> 
-#include <math.h> 
+#include <stdlib.h>
+#include <string>
 #include <fstream>
+#include <time.h>
+#include <iomanip>  // чтобы работал precision
+#include <math.h>  // функции модуля числа, синуса, косинуса и прочее здесь
+#include <cmath>  
+#include <string>  // для считывания строк
 
-
-//Задача1
-/*
+using namespace std; // чтобы запомнить, какие команды и типы работают через std
 using std::cout;
+using std::cin;
 using std::endl;
-int main()
-{
 
-    char ZeroStr[] = "00000000000000";
-    for (int i = strlen(ZeroStr) - 1; i > -1; i--)
-        cout << &ZeroStr[i] << endl;
-    return 0;
-}*/
+
+//Задача 1
+/*
+int main() {
+	cout << "           AiP       " << endl
+		<< "  Homework 21/03/2020" << endl
+		<< "      Kozevnikov Ilya" << endl
+		<< "                  #7 " << endl
+		<< "                     " << endl;
+
+
+
+
+
+	cout << "Task 1 \n \n";
+
+
+	float num;
+	cout << "Enter num: ";
+	cin >> num;
+	cout << "\n";
+
+		for (int i = 0; i < num; i++) {
+			for (int j = 0; j <= i; j++)
+				cout << 0;
+			cout << endl;
+		}
+
+		cout << endl;
+
+		getchar();  // ожидание ввода, чтобы прога
+		getchar();  // не закрывалась после выполнения
+
+	return 0;
+}
+*/
+
 //Задача 2e
 
 /*
